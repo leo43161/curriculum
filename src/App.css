@@ -3,3 +3,47 @@
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
+
+#header {
+  background-color: #222629;
+  width: 270px;
+}
+
+#header h5 {
+  font-weight: 600;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+#header .nav-text {
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+#header p {
+  position: relative;
+  display: block;
+  font-size: 0.7em;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.25em;
+  margin: 0.5 em 0 0 0;
+}
+
+.nav-button {
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  color: #ffffff80;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.nav-button.active {
+  background: rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 0 0.25em 0 rgb(0 0 0 / 13%);
+  color: #fff;
+  font-weight: 200;
+}
