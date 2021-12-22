@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
 import Nav from './components/Navigation';
-import { Element } from 'react-scroll'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { Element } from 'react-scroll';
+import { faHome, faTh, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
+  library.add(faHome, faTh, faUser, faEnvelope);
   return (
     <div>
       <div className="d-flex flex-column flex-md-row">
-        <div id="header">
+        <div id="header" className="sticky-top">
           <Nav></Nav>
         </div>
         <div className="col-9">
@@ -31,6 +34,6 @@ function App() {
       </div>
     </div>
   );
-}
+};
 
 export default App;
