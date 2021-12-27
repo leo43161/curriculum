@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Nav from './pages/Navigation';
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core';

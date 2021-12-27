@@ -56,6 +56,10 @@ body {
   }
 }
 
+.navbar-light .navbar-toggler{
+  border-color: #7cd1b86b;
+}
+
 .nav-button:hover {
   color: #fff;
   transition: all 0.5s ease;
