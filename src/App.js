@@ -1,14 +1,15 @@
 import React from 'react';
 import './App.css';
-import Nav from './components/Navigation';
+import Nav from './pages/Navigation';
+import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { Element } from 'react-scroll';
 import { faHome, faTh, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
-  library.add(faHome, faTh, faUser, faEnvelope);
+  library.add(faHome, faTh, faUser, faEnvelope, fab);
   return (
-    <div>
+    <div className="h-100">
       <div className="d-flex flex-column flex-md-row">
         <div id="header" className="sticky-top">
           <Nav></Nav>

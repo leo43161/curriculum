@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import NavButton from './NavButton';
+import NavButton from '../components/NavButton';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
+import Redes from '../components/Redes';
 
 export default function Navigation() {
     const [expanded, setExpanded] = useState(false);
@@ -21,6 +22,8 @@ export default function Navigation() {
                         <NavButton setExpanded={setExpanded} to="portfolio" icon="th" text="Portfolio"></NavButton>
                         <NavButton setExpanded={setExpanded} to="sobreMi" icon="user" text="Sobre Mi"></NavButton>
                         <NavButton setExpanded={setExpanded} to="contacto" icon="envelope" text="Contacto"></NavButton>
+                        <Redes expand={true}></Redes>
+                        <Redes></Redes>
                     </div>
                 </Navbar.Collapse>
             </Container>
