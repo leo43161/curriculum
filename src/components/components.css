@@ -3,6 +3,8 @@
 
 .card-portfolio p {
     font-size: 17px;
+    color: var(--bs-body-color);
+    font-weight: 400;
 }
 
 .img-card {
