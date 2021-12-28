@@ -2,7 +2,6 @@ import React from 'react'
 import CardPortfolio from '../components/CardPortfolio'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
 import Tooltip from 'react-bootstrap/Tooltip';
-import Button from 'react-bootstrap/Button';
 import "./pages.css"
 
 export default function Portfolio() {
