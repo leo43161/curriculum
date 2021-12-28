@@ -25,7 +25,7 @@ export default function Portfolio() {
                         </Tooltip>
                     }
                 >
-                <div className="col">
+                <div className="col h-100">
                     <CardPortfolio web="barcode" titulo="Barcode" descripcion="Crea y administra un menu de comidas"></CardPortfolio>
                 </div>
                 </OverlayTrigger>
