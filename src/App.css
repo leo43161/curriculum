@@ -96,7 +96,7 @@ body {
 }
 
 .navbar {
-  height: 630px;
+  height: 100vh;
 }
 
 .redes-button {
@@ -114,45 +114,32 @@ body {
   cursor: pointer;
 }
 
-@media (max-width: 326px) {
-  .navbar {
-    height: 630px;
-  }
-
-}
-
-@media (min-width: 326.5px) and (max-width:390px) {
-  .navbar {
-    height: auto;
-  }
-}
-
-@media (min-width: 390.5px) and (max-width:450px) {
+@media (max-width: 450px) {
   .navbar {
     height: auto;
   }
 }
 
 @media (min-width: 455px) and (max-width:950px) {
-  .navbar {
-    height: 545px;
+  #header {
+    width: 230px;
   }
 }
 
 @media (min-width: 824px) and (max-width: 1199.98px) {
-  .navbar {
-    height: 545px;
+  #header {
+    width: 230px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1450px) {
-  .navbar {
-    height: 630px;
+  #header {
+    width: 260px;
   }
 }
 
 @media (min-width: 2100px) and (max-width: 2600px) {
-  .navbar {
-    height: 850px;
+  #header {
+    width: 300px;
   }
 }
