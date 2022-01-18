@@ -3,12 +3,13 @@ import Nav from './pages/Navigation';
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { Element } from 'react-scroll';
-import { faHome, faTh, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faTh, faUser, faEnvelope, faCode } from '@fortawesome/free-solid-svg-icons';
 import Intro from './pages/Intro';
 import Portfolio from './pages/Portfolio';
+import Tecnologias from './pages/Tecnologias';
 
 function App() {
-  library.add(faHome, faTh, faUser, faEnvelope, fab);
+  library.add(faHome, faTh, faUser, faEnvelope, fab, faCode);
   return (
     <div className="h-100">
       <div className="d-flex flex-column flex-md-row">
@@ -21,6 +22,10 @@ function App() {
           </Element>
           <Element name="portfolio">
             <Portfolio></Portfolio>
+          </Element>
+          <hr></hr>
+          <Element name="tecnologias">
+            <Tecnologias></Tecnologias>
           </Element>
           <Element name="sobreMi">
             <h1>sobreMi</h1>

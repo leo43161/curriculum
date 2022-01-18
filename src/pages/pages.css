@@ -7,13 +7,13 @@
     background-size: cover;
 }
 
-.text-intro h2{
+.text-intro h2 {
     font-size: 2em;
     letter-spacing: -1px;
     font-weight: 300;
 }
 
-.text-intro p{
+.text-intro p {
     font-size: 1.2em;
     letter-spacing: -1px;
     font-weight: 300;
@@ -21,6 +21,15 @@
 
 /* Portfolio */
 
-.portfolio{
+.portfolio {
     padding: 60px 0;
+}
+
+/* Tecnologia */
+.card-tec{
+    height:300px
+}
+
+.card-tec img {
+    filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.5));
 }
