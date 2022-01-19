@@ -29,7 +29,6 @@ export default function CardPortfolio({ web, titulo, descripcion }) {
         }
     }
     let _website = web ? website[web] : {};
-    console.log(_website.img ? true : false);
     return (
         <a className="text-decoration-none" href={_website.url} target="_blank" rel="noopener noreferrer">
             <div className={"col card-portfolio my-2 " + _website.class}>
