@@ -10,8 +10,8 @@ export default function Navigation() {
         <Navbar expand="md" expanded={expanded} sticky="top" className="text-white py-0">
             <Container className="p-0 flex-md-column justify-content-between h-100">
                 <div className="p-0 flex-md-column w-100">
-                    <div className="d-flex justify-content-between justify-content-md-end w-100 px-lg-3 my-lg-4 px-3 py-3">
-                        <Navbar.Toggle onClick={() => setExpanded(!expanded)} className="h-100 my-auto border-white" aria-controls="basic-navbar-nav" />
+                    <div className="d-flex justify-content-between justify-content-md-end w-100 px-lg-3 my-lg-4 px-3 py-3" onClick={() => setExpanded(!expanded)}>
+                        <Navbar.Toggle onClick={() => setExpanded(!expanded)} className="h-100 my-auto border-secondary" aria-controls="basic-navbar-nav" />
                         <div className="d-flex px-2 align-items-end flex-column text-end">
                             <h5 className="mb-1">Palavecino Leonardo</h5>
                             <p className="m-0">Programador Web</p>
