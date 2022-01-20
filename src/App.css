@@ -26,7 +26,8 @@ body {
 }
 
 
-.btn-primary-out-1:focus, .btn-primary-1:focus {
+.btn-primary-out-1:focus,
+.btn-primary-1:focus {
   box-shadow: 0 0 0 0.20rem #7CD1B840;
   outline: 0 none;
 }
@@ -156,4 +157,16 @@ body {
   #header {
     width: 300px;
   }
+}
+
+.footer-text {
+  font-size: 0.8em;
+}
+
+.footer-text a {
+  color: var(--color-secondary-1);
+  transition: color 0.2s ease-in-out;
+}
+.footer-text a:hover {
+  color: var(--color-primary-1);
 }
