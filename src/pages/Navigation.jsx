@@ -22,7 +22,7 @@ export default function Navigation() {
                             <NavButton setExpanded={setExpanded} to="intro" icon="home" text="Intro"></NavButton>
                             <NavButton setExpanded={setExpanded} to="portfolio" icon="th" text="Portfolio"></NavButton>
                             <NavButton setExpanded={setExpanded} to="tecnologias" icon="code" text="Tecnologias"></NavButton>
-                            <NavButton setExpanded={setExpanded} to="sobreMi" icon="user" text="Sobre Mi"></NavButton>
+                           {/*  <NavButton setExpanded={setExpanded} to="sobreMi" icon="user" text="Sobre Mi"></NavButton> */}
                             <NavButton setExpanded={setExpanded} to="contacto" icon="envelope" text="Contacto"></NavButton>
                             <Redes expand={true}></Redes>
                         </div>
