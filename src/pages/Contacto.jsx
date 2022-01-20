@@ -43,13 +43,13 @@ export default function Contacto() {
             <h2 className="mb-4">Contacto</h2>
             <div className="pb-5">
                 <Form onSubmit={sendEmail}>
-                    <div className="d-flex mb-4">
-                        <div className="col me-2 pe-1">
+                    <div className="d-flex flex-wrap mb-4">
+                        <div className="col-md col-12 me-md-2 pe-md-1 mb-4 mb-md-0">
                             <Form.Group className="col">
                                 <Form.Control type="text" name="nombre" value={message.nombre} onChange={handleChange} className="contact-input" placeholder="Nombre" required />
                             </Form.Group>
                         </div>
-                        <div className="col ms-2 ps-1">
+                        <div className="col-md col-12 ms-md-2 ps-md-1">
                             <Form.Group className="col">
                                 <Form.Control type="email" name="correo" value={message.correo} onChange={handleChange} className="contact-input" placeholder="Correo" />
                             </Form.Group>
