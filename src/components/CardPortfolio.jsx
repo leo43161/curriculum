@@ -30,8 +30,8 @@ export default function CardPortfolio({ web, titulo, descripcion }) {
     }
     let _website = web ? website[web] : {};
     return (
-        <a className="text-decoration-none" href={_website.url} target="_blank" rel="noopener noreferrer">
-            <div className={"col card-portfolio my-2 " + _website.class}>
+        <a className="text-decoration-none " href={_website.url} target="_blank" rel="noopener noreferrer">
+            <div className={"col card-portfolio my-2 shadow-sm " + _website.class}>
                 <div className="position-relative d-flex justify-content-center align-items-center img-card">
                     {_website.img ? <img src={process.env.PUBLIC_URL + "img/" + _website.img} className="img-fluid p-5 position-absolute" alt={web}></img> : <h2 className={"position-absolute"}>{titulo}</h2>}
                 </div>

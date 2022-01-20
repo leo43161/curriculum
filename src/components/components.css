@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&display=swap');
 
 .card-portfolio p {
+    background-color: #fff;
     font-size: 17px;
     color: var(--bs-body-color);
     font-weight: 400;
