@@ -8,7 +8,7 @@ export default function Portfolio() {
     return (
         <div className="portfolio text-intro col-11 mx-auto text-center">
             <h2>Portfolio</h2>
-            <p>Esto es una muestra de todos los trabajos realizados por mi o en equipo, dando a conocer mis habilidades como programador web</p>
+            <p>Esto es una muestra de todos los trabajos realizados a lo largo de mi carrera como programador FullStack</p>
             <div className="row row-cols-md-3 row-cols-1 g-4 col-11 mx-auto">
                 <div className="col">
                     <CardPortfolio web="turismo" descripcion="Ente Autartico de Tucuman"></CardPortfolio>
