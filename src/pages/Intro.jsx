@@ -14,7 +14,7 @@ export default function Intro() {
                     to="portfolio"
                     smooth={true}
                     offset={offserConfig}
-                    duration={500}
+                    duration={0}
                 >
                     <button className="btn btn-primary-1">Ver portfolio</button>
                 </Link>
