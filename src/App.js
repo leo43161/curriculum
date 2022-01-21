@@ -41,7 +41,7 @@ function App() {
             </div>
           </Element>
           <div className="bg-grad d-flex justify-content-center align py-5">
-            <span className="footer-text">Diseño: <a href="https://html5up.net/">HTML5 UP</a></span>
+            <span className="footer-text">Diseño: <a href="https://html5up.net/prologue">HTML5 UP</a></span>
           </div>
         </div>
       </div>
