@@ -18,20 +18,24 @@ export default function Portfolio() {
                         <CardPortfolio web="cinema" titulo="Cinema" descripcion="Blog de cine"></CardPortfolio>
                     </div>
                 </div>
-                <OverlayTrigger
-                    key={'top'}
-                    placement={'top'}
-                    overlay={
-                        <Tooltip id={`tooltip-${'top'}`}>
-                            <p className="mb-1">Email: <strong>{'barcode@gmail.com'}</strong></p>
-                            <p className="mb-1">Contraseña: <strong>{'123456'}</strong></p>
-                        </Tooltip>
-                    }
-                >
-                    <div className="col order-md-3 order-lg-0 h-100 my-0 my-lg-4">
-                        <CardPortfolio web="barcode" titulo="Barcode" descripcion="Crea y administra un menu de comidas"></CardPortfolio>
-                    </div>
-                </OverlayTrigger>
+                <div className="col mt-0 mt-md-3">
+                    <OverlayTrigger
+                        key={'top'}
+                        placement={'top'}
+                        overlay={
+                            <Tooltip id={`tooltip-${'top'}`}>
+                                <p className="mb-1">Email: <strong>{'barcode@gmail.com'}</strong></p>
+                                <p className="mb-1">Contraseña: <strong>{'123456'}</strong></p>
+                            </Tooltip>
+                        }
+                    >
+                        <div className="col order-md-3 order-lg-0 my-0 my-lg-3">
+                            <CardPortfolio web="barcode" titulo="Barcode" descripcion="Creá y administrá un menú de comidas"></CardPortfolio>
+                        </div>
+                    </OverlayTrigger>
+                    <CardPortfolio web="miamee" titulo="Miamee" descripcion="Menú"></CardPortfolio>
+                </div>
+
                 <div className="col mt-0 mt-md-4">
                     <div className="mb-3">
                         <CardPortfolio web="rollingnews" descripcion="Noticias"></CardPortfolio>

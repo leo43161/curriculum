@@ -12,6 +12,11 @@ export default function CardPortfolio({ web, titulo, descripcion }) {
             class: "cinema",
             url: "https://cinemablog.netlify.app/"
         },
+        miamee: {
+            img: null,
+            class: "miamee",
+            url: "https://miamee-app.netlify.app/61b73a76dad75065eeda5dc0"
+        },
         cocu: {
             img: "cocu_logo.png",
             class: "cocu",
