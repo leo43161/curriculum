@@ -1,10 +1,10 @@
 import React from 'react';
 import "./pages.css"
-import { Link } from "react-scroll";
+/* import { Link } from "react-scroll"; */
 
 export default function Intro() {
-    const width = window.screen.width;
-    const offserConfig = width < 430 ? -350 : 0;
+    /* const width = window.screen.width; */
+    /* const offserConfig = width < 430 ? -350 : 0; */
     return (
         <div className="d-flex justify-content-center align-items-center intro text-dark">
             <div className="col-lg-10 col-md-10 col-11 text-center text-white text-intro">
