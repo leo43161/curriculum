@@ -11,6 +11,9 @@ body {
 .text-color-primary {
   color: var(--color-primary-1);
 }
+.text-color-secondary {
+  color: var(--color-secondary-1);
+}
 
 .btn-primary-1 {
   border-radius: 0.35em;
