@@ -14,6 +14,10 @@ export default function Tecnologias() {
                 <CardTecnologia title="express" img="express.png" color="#4D4545" url="https://expressjs.com/es/"></CardTecnologia>
                 <CardTecnologia title="React" img="react.png" color="#000" url="https://es.reactjs.org/"></CardTecnologia>
                 <CardTecnologia title="NodeJS" img="node.png" color="#24242C" url="https://nodejs.org/es/"></CardTecnologia>
+                <CardTecnologia title="MySQL" img="mysql.png" color="#F5F5F5" url="https://www.mysql.com/"></CardTecnologia>
+                <CardTecnologia title="React Native" img="reactnative.png" color="#62DAFC" url="https://reactnative.dev/"></CardTecnologia>
+                <CardTecnologia title="Redux" img="redux.png" color="#24242C" url="https://redux.js.org/"></CardTecnologia>
+                <CardTecnologia title="NextJs" img="nextjs.png" color="#FFFFFF" url="https://nextjs.org/"></CardTecnologia>
             </div>
 
         </div>

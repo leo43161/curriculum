@@ -7,7 +7,7 @@ export default function CardTecnologia({ title, img, color, url }) {
                 <img src={`${process.env.PUBLIC_URL}/img/iconos/${img}`} className="img-fluid" alt={title} />
             </div>
             <a className="text-white title-tec text-decoration-none text-white d-flex justify-content-center align-items-center" href={url}>
-                <h3 className="mb-0">{title}</h3>
+                <h3 className="mb-0" style={{textShadow: "0 .3rem .45rem rgba(0,0,0,.25)"}}>{title}</h3>
             </a>
         </div>
     )
