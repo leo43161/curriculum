@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akronim&family=Damion&family=Roboto:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&display=swap');
+@font-face {
+    font-family: "Rylan";
+    src: url("../assets/fonts/Rylan/Rylan-Regular.otf");
+}
 
 .card-portfolio p {
     background-color: #fff;
@@ -55,6 +59,28 @@
 
 /*  */
 
+/* Visita Tucuman */
+
+.visitatucuman h2 {
+    font-family: 'Damion', cursive;
+    color: #4DC0BC;
+    border-bottom: 2px solid #FFCE2B;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+
+.visitatucuman .img-card {
+    padding: 40px;
+    background-color: #587207;
+}
+
+.visitatucuman .img-card img{
+    width: 80%;
+}
+
+/*  */
+
 /* Cinema */
 
 .cinema h2 {
@@ -81,12 +107,31 @@
 
 /*  */
 
+/* Goods */
+
+.goods .img-card {
+    background-color: #F2F2F2;
+}
+.goods h2 {
+    font-family: 'Rylan';
+    font-size: 60px;
+    color: #000;
+}
+
+.goods .img-card:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.0);
+}
 /* COCU */
 
 .cocu .img-card {
     background-color: #343a40;
 }
-
 /*  */
 /* Rolling News */
 

@@ -24,16 +24,15 @@ export default function Portfolio() {
                         placement={'top'}
                         overlay={
                             <Tooltip id={`tooltip-${'top'}`}>
-                                <p className="mb-1">Email: <strong>{'barcode@gmail.com'}</strong></p>
-                                <p className="mb-1">Contraseña: <strong>{'123456'}</strong></p>
+                                <p className="mb-1"><strong>En proceso...</strong></p>
                             </Tooltip>
                         }
                     >
                         <div className="col order-md-3 order-lg-0 my-0 my-lg-3">
-                            <CardPortfolio web="barcode" titulo="Barcode" descripcion="Creá y administrá un menú de comidas"></CardPortfolio>
+                            <CardPortfolio web="goods" titulo="Goods" descripcion="E-commerce de ropa vintage"></CardPortfolio>
                         </div>
                     </OverlayTrigger>
-                    <CardPortfolio web="miamee" titulo="Miamee" descripcion="Menú"></CardPortfolio>
+                    <CardPortfolio web="visitatucuman" titulo="Visita Tucuman" descripcion="Portal de servicios turisticos"></CardPortfolio>
                 </div>
 
                 <div className="col mt-0 mt-md-4">

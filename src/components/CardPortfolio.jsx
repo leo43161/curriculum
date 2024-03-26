@@ -7,6 +7,11 @@ export default function CardPortfolio({ web, titulo, descripcion }) {
             class: "bar-code",
             url: "https://bar-code.netlify.app/"
         },
+        goods: {
+            img: null,
+            class: "goods",
+            url: "https://goods-indumentary.netlify.app/"
+        },
         cinema: {
             img: null,
             class: "cinema",
@@ -21,6 +26,11 @@ export default function CardPortfolio({ web, titulo, descripcion }) {
             img: "cocu_logo.png",
             class: "cocu",
             url: "https://pana321.netlify.app/"
+        },
+        visitatucuman: {
+            img: "tucuman_logo.png",
+            class: "visitatucuman",
+            url: "https://visitatucuman.ar/"
         },
         rollingnews: {
             img: "rollingnews.png",
