@@ -40,9 +40,6 @@ function App() {
               <Contacto></Contacto>
             </div>
           </Element>
-          <div className="bg-grad d-flex justify-content-center align py-5">
-            <span className="footer-text">Diseño: <a href="https://html5up.net/prologue">HTML5 UP</a></span>
-          </div>
         </div>
       </div>
     </div>
