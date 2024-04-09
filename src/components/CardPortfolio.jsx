@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Badge from 'react-bootstrap/Badge';
 import "./components.css";
 export default function CardPortfolio({ web, titulo, descripcion }) {
     const website = {
@@ -45,13 +46,21 @@ export default function CardPortfolio({ web, titulo, descripcion }) {
     }
     let _website = web ? website[web] : {};
     return (
-        <a className="text-decoration-none " href={_website.url} target="_blank" rel="noopener noreferrer">
-            <div className={"col card-portfolio my-2 shadow-sm " + _website.class}>
-                <div className="position-relative d-flex justify-content-center align-items-center img-card">
-                    {_website.img ? <img src={process.env.PUBLIC_URL + "img/" + _website.img} className="img-fluid p-5 position-absolute" alt={web}></img> : <h2 className={"position-absolute"}>{titulo}</h2>}
+        <a className="text-decoration-none text-black" href={_website.url} target="_blank" rel="noopener noreferrer">
+            <div className={"d-flex align-items-center px-3 py-2 text-decoration-none gap-5 " + _website.class}>
+                <div className="col text-start">
+                    <h4 className="fw-bold">{titulo}</h4>
+                    <div className="d-flex gap-3 mb-2">
+                        <span class="badge" style={{ backgroundColor: "#A63A0F" }}>HTML</span>
+                        <span class="badge" style={{ backgroundColor: "#0C3DA6" }}>CSS</span>
+                        <span class="badge" style={{ backgroundColor: "#B39419" }}>JavaScript</span>
+                        <span class="badge" style={{ backgroundColor: "#393C66" }}>PHP</span>
+                        <span class="badge text-dark" style={{ backgroundColor: "#F5F5F5" }}>MySQL</span>
+                    </div>
+                    <p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in </p>
                 </div>
-                <div className="border">
-                    <p className="py-2 px-1 mb-0">{descripcion}</p>
+                <div className="col-2 d-flex justify-content-center align-items-center">
+                    {_website.img ? <img className='img-fluid col-12' src={process.env.PUBLIC_URL + "img/turismo.svg"} alt="" /> : <h2 className="mb-0">{titulo}</h2>}
                 </div>
             </div>
         </a>

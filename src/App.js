@@ -22,7 +22,7 @@ function App() {
             <Intro></Intro>
           </Element>
           <Element name="portfolio">
-            <div className="bg-grad">
+            <div className="bg-grad bg-gray">
               <Portfolio></Portfolio>
             </div>
           </Element>
