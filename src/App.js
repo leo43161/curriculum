@@ -12,12 +12,12 @@ import Tecnologias from './pages/Tecnologias';
 function App() {
   library.add(faHome, faTh, faUser, faEnvelope, fab, faCode);
   return (
-    <div className="h-100">
-      <div className="d-flex flex-column flex-md-row">
-        <div id="header" className="sticky-top">
+    <div className="h-full">
+      <div className="flex flex-col md:flex-row">
+        <div className="hidden">
           <Nav></Nav>
         </div>
-        <div className="col">
+        <div className="w-full">
           <Element name="intro">
             <Intro></Intro>
           </Element>

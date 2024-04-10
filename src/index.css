@@ -1,4 +1,6 @@
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .text-title-1{
     font-size: 3rem;
     font-family: 'Satoshi-Variable';

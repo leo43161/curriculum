@@ -13,6 +13,9 @@ export default function Intro() {
                 <p className="mb-4 text-start">
                     Desarrollador web especializado en la entrega de sitios web de alta calidad. Busco oportunidades para aplicar mis habilidades y contribuir al éxito de proyectos innovadores.
                 </p>
+                <h1 className="text-3xl font-bold underline">
+                    Hello world!
+                </h1>
                 {/* <Link
                     to="portfolio"
                     smooth={true}
